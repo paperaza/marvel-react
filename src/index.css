@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.comics-page .header{
+  margin-left: 0 !important;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;/*me tranforma todo a mayuscula*/
+}
+
+.series-page .header{
+  margin-left: 0 !important;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;/*me tranforma todo a mayuscula*/
+}
+
+#slide-comics-image{ /*definiendo donde queda el baner de esa pagina*/
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(./img/slide-comics.jpeg);
+  height: 350px;
+  background-position: top;
+}
+
+#slide-series-image{ /*definiendo donde queda el baner de esa pagina*/
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(./img/last-movies.jpeg);
+  height: 350px;
+  background-position: top;
+}
+
+.error-404-context-text{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100vh; /*toma le alto de 100 en sentido vertical horizontal*/
+}
+
+.error-404 .error-404-context-text h1{
+  color: white;
+}
+
+.error-404 .error-404-context-text h2{
+  color: white;
+  margin-bottom: 50px;
+}
+
+.error-404 .error-404-context-text .error-404-context-text-container{
+  text-align: center;
 }
