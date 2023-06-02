@@ -65,3 +65,22 @@ code {
 .error-404 .error-404-context-text .error-404-context-text-container{
   text-align: center;
 }
+
+#error404-image {
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(./img/page-404.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.error-404 {
+  color: white;
+  font-size: 36px;
+  
+}
+
+.error-404 .p{
+  
+  color: aqua;
+}
